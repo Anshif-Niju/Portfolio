@@ -58,6 +58,9 @@ a:focus {
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
 }
+.btn-2{
+    padding: 12px 38px;
+}
 
 .btn:hover {
     color: #000000;
@@ -362,6 +365,9 @@ a:focus {
         padding: 12px 30px;
         letter-spacing: 1px;
     }
+    .hero .hero-btn .btn-2{
+        padding: 12px 44px;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -394,6 +400,9 @@ a:focus {
         padding: 10px 15px;
         letter-spacing: 1px;
     }
+    .hero .hero-btn .btn-2{
+        padding: 10px 29px;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -414,6 +423,10 @@ a:focus {
         padding: 8px 10px;
         letter-spacing: 0;
     }
+    .hero .hero-btn .btn-2{
+        padding: 8px 22px;
+    }
+    
 }
 
 
